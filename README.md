@@ -1,6 +1,6 @@
 # StaticContent
 
-###Display static content simply.
+### Display static content simply.
 
  - Page display from templates.
  - Block display from templates, files, html or text.
