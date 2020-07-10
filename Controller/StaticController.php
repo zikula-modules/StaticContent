@@ -41,7 +41,7 @@ final class StaticController
     }
 
     /**
-     * @Route("/p/{name}", methods = {"GET"}, options={"zkNoBundlePrefix"=1}, requirements={"name" = "[^&amp;/?*:;{}\\]+"})
+     * @Route("/p/{name}", methods = {"GET"}, options={"zkNoBundlePrefix"=1}, requirements={"name" = "[^&/?*:;{}\\]+"})
      */
     public function viewAction(string $name): Response
     {
