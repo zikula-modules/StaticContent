@@ -59,11 +59,6 @@ class FincludeBlockType extends AbstractType
         ;
     }
 
-    public function getBlockPrefix()
-    {
-        return 'zikulablocksmodule_fincludeblock';
-    }
-
     public function configureOptions(OptionsResolver $resolver)
     {
         // add a constraint to the entire form

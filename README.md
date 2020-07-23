@@ -21,3 +21,7 @@ as restricted as the use above for full page display. Other blocks are documente
 
 In Core 3.0.1 you can use the Routes module to create a custom route to the template. So, instead of `/p/foo` you could
 use simply `/foo` or `/smile` or anything you like. 
+
+## Changelog
+#### 1.0.1
+ - added hook for html block

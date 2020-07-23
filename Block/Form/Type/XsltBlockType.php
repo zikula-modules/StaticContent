@@ -75,11 +75,6 @@ class XsltBlockType extends AbstractType
         ]);
     }
 
-    public function getBlockPrefix()
-    {
-        return 'zikulablocksmodule_xsltblock';
-    }
-
     /**
      * Validation method for entire form.
      */

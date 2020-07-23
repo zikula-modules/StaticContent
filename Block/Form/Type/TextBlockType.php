@@ -42,9 +42,4 @@ class TextBlockType extends AbstractType
             ))
         ;
     }
-
-    public function getBlockPrefix()
-    {
-        return 'zikulablocksmodule_textblock';
-    }
 }
