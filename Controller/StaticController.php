@@ -43,7 +43,7 @@ final class StaticController
     /**
      * @Route("/p/{name}", methods = {"GET"}, options={"zkNoBundlePrefix"=1}, requirements={"name" = "[^&/?*:;{}\\]+"})
      */
-    public function viewAction(string $name): Response
+    public function view(string $name): Response
     {
         if (!$this->permissionApi->hasPermission('ZikulaStaticContentModule::name', '::' . $name, ACCESS_OVERVIEW)) {
             throw new AccessDeniedException();
