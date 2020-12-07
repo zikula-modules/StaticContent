@@ -45,6 +45,9 @@ class StaticContentModuleInstaller extends AbstractExtensionInstaller
             ->findOneBy(['name' => 'ZikulaStaticContentModule']);
         $position = $this->entityManager->getRepository(BlockPositionEntity::class)
             ->findOneBy(['name' => 'center']);
+        if (!isset($module, $position)) {
+            return;
+        }
 
         $blockEntity = new BlockEntity();
         $blockEntity->setModule($module);

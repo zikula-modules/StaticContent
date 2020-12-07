@@ -23,6 +23,8 @@ In Core 3.0.1 you can use the Routes module to create a custom route to the temp
 use simply `/foo` or `/smile` or anything you like. 
 
 ## Changelog
+#### 1.0.3
+ - Add check for block position existence.
 #### 1.0.2
  - Added welcome block on installation
 #### 1.0.1

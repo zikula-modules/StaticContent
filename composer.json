@@ -1,6 +1,6 @@
 {
     "name": "zikula/staticcontent-module",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Display static content simply.",
     "type": "zikula-module",
     "license": "MIT",
@@ -14,6 +14,7 @@
         "psr-4": { "Zikula\\StaticContentModule\\": "" }
     },
     "require": {
+        "zikula/core-bundle": "3.*",
         "php": ">=7.2.5"
     },
     "extra": {
