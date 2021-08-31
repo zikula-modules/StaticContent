@@ -1,6 +1,6 @@
 {
     "name": "zikula/staticcontent-module",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Display static content simply.",
     "type": "zikula-module",
     "license": "MIT",
