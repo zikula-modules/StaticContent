@@ -1,14 +1,15 @@
+# Back in core
+
+StaticContent has been included into the [core repository](https://github.com/zikula/core/).
+
 # StaticContent
 
-### Display static content simply.
+## Display static content simply.
 
  - Page display from templates.
 
-### Requirements
+## Requirements
 Requires Zikula >= 3.0.0
-
-### Notes
-As of Zikula Core 3.1.0 this module is included as a Value-Added extension in the Zikula distribution.
 
 ## How to use
  - Install the module
